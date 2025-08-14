@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git credentialsId: 'my-github-username-token', url: 'https://github.com/khyati-source/my-flask-app-deploy.git', branch: 'main'
+                git credentialsId: 'irannachawan', url: 'https://github.com/irannachawan/App_Deploy_K8s.git', branch: 'main'
             }
         }
 
